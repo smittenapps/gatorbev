@@ -1,0 +1,47 @@
+@project-min-height: 15em;
+
+@gray1: @lt-lt-gray;
+@gray2: lighten(#000, 90%);
+
+@blue-gray: desaturate(lighten(@color-primary, 10%), 0%);
+
+div.project {
+	overflow: auto;
+	min-height: @project-min-height;
+	.bdiv;
+
+	+ div.project {
+			margin-top: 4em;
+	}
+
+	.left > .icon {
+			padding: 1em;
+	}
+}
+
+.project-body {
+		min-height: 100%;
+		margin-bottom: 2em;
+}
+
+div.project > div.left {
+	width: 20%;
+	float: left;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: transparent;
+}
+
+div.project > div.main {
+	position: relative;
+	padding: 1.5em;
+	width: 80%;
+	min-height: @project-min-height;
+	overflow: auto;
+	float: left;
+	top: 0;
+
+	.title {
+			margin-top: 0;
+	}
+}

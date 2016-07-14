@@ -1,0 +1,167 @@
+.p {
+  color: #B0BEC5;
+  font-size: medium;
+  font-weight: 400;
+}
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #212121;
+}
+html > body {
+  height: 100%;
+  margin: 0px;
+  font-family: inherit;
+}
+.jumbotron,
+#footer {
+  background-color: transparent;
+}
+.jumbotron h1,
+#footer h1 {
+  text-align: center;
+}
+.jumbotron h1.title,
+#footer h1.title {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.jumbotron h1.subtitle,
+#footer h1.subtitle {
+  color: #DD661E;
+  text-align: center;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 300;
+}
+.jumbotron h2,
+#footer h2 {
+  color: #DD661E;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.jumbotron table,
+#footer table {
+  margin: 0 auto;
+  color: #DD661E;
+}
+.jumbotron table th,
+#footer table th {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.jumbotron p,
+#footer p,
+.jumbotron span,
+#footer span {
+  color: #B0BEC5;
+  font-size: medium;
+  font-weight: 400;
+  text-align: center;
+}
+.jumbotron p.phone,
+#footer p.phone,
+.jumbotron span.phone,
+#footer span.phone {
+  text-decoration: none;
+}
+.jumbotron td,
+#footer td {
+  color: #B0BEC5;
+  font-size: medium;
+  font-weight: 400;
+  padding: 0px 15px 0px 0px;
+}
+.jumbotron a,
+#footer a {
+  color: #B0BEC5;
+  text-decoration: underline;
+}
+.jumbotron a:link,
+#footer a:link {
+  color: #B0BEC5;
+}
+.jumbotron a:visited,
+#footer a:visited {
+  color: #B0BEC5;
+}
+.jumbotron a:hover,
+#footer a:hover {
+  color: #B0BEC5;
+}
+.jumbotron a:active,
+#footer a:active {
+  color: #B0BEC5;
+}
+#page-wrap {
+  background-image: none;
+  background-color: #212121;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+}
+#page-wrap > .jumbotron {
+  /* title */
+  background-color: #014a83;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+#content {
+  width: 100%;
+  height: 100%;
+}
+#content > .jumbotron {
+  /* content jumbotron */
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.maps {
+  display: block;
+  margin: 0 auto;
+}
+#facebook-icon,
+#instagram-icon {
+  text-align: center;
+  text-decoration: none;
+  font-size: 48px;
+  margin: 0 auto;
+  color: white;
+}
+#social-icons {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+@media (min-width: 768px) and (min-height: 600px) {
+  #page-wrap {
+    background-image: url(/img/storefront3.jpg);
+  }
+  #hours,
+  #location,
+  #contact {
+    float: left;
+    width: 33%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  #footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+  }
+  #footer {
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(25, 25, 25, 0.8);
+  }
+}

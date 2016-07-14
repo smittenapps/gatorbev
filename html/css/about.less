@@ -1,0 +1,24 @@
+.about-links {
+	> .about-link {
+		.general-link;
+		float: left;
+		+ .about-link {
+			margin-left: 1.5em;
+		}
+	}
+}
+
+div.jumbotron.about-jumbotron {
+	border: 0 none;
+	.bdiv;
+	text-align: left;
+
+	> h1 {
+		color: @dark6;
+		margin-top: 0;
+	}
+
+	> p {
+		font-weight: 400;
+	}
+}
